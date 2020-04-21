@@ -4,7 +4,7 @@ module.exports = {
     description: 'ts學習記錄',
     themeConfig: {
         // 你的GitHub仓库，请正确填写
-        repo: 'https://github.com/xxxxxxx/blog-demo',
+        repo: 'https://github.com/yulin3/learn-ts',
         // 自定义仓库链接文字。
         repoLabel: 'github',
         nav: [

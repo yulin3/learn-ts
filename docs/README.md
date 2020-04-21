@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /vue-logo.png
-heroText: blog-demo
+# heroImage: /vue-logo.png
+heroText: learn-ts
 tagline: 博客示例
 actionText: 快速上手 →
 actionLink: /
