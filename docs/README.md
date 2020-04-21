@@ -3,7 +3,7 @@ home: true
 # heroImage: /vue-logo.png
 heroText: TypeScript
 actionText: 立刻開始 →
-actionLink: ./ts/first.md
+actionLink: ./ts/
 features:
 - title: TS是什么
   details: TypeScript = Type + Script（标准JS）。我们从TS的官方网站上就能看到定义：TypeScript is a typed superset of JavaScript that compiles to plain JavaScript。TypeScript是一个编译到纯JS的有类型定义的JS超集。

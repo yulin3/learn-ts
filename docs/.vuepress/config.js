@@ -6,24 +6,20 @@ module.exports = {
         // 你的GitHub仓库，请正确填写
         repo: 'https://github.com/yulin3/learn-ts',
         // 自定义仓库链接文字。
-        repoLabel: 'github',
+        repoLabel: 'GitHub',
         nav: [
             { text: '首页', link: '/' },
-            { text: 'TS學習筆記', link: '/ts/first.md' }
+            { text: 'TS學習筆記', link: '/ts/' }
         ],
         sidebar: {
             '/': {
                 title: '首頁',
                 collapsable: true
             },
-            '/ts/first': [
+            '/ts/': [
                 {
                     title: 'TS學習筆記',
-                    collapsable: true,
-                    children: [
-                        'base/test1',
-                        'base/test2',
-                    ]
+                    collapsable: true
                 }
             ]
         }
