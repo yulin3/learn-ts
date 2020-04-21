@@ -1,15 +1,14 @@
 ---
 home: true
 # heroImage: /vue-logo.png
-heroText: learn-ts
-tagline: 博客示例
-actionText: 快速上手 →
-actionLink: /
+heroText: TypeScript
+actionText: 立刻開始 →
+actionLink: ./ts/first.md
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+- title: TS是什么
+  details: TypeScript = Type + Script（标准JS）。我们从TS的官方网站上就能看到定义：TypeScript is a typed superset of JavaScript that compiles to plain JavaScript。TypeScript是一个编译到纯JS的有类型定义的JS超集。
+- title: 为什么要用TS
+  details: 目标：生命周期较长（常常持续几年）的复杂SPA应用，保障开发效率的同时提升代码的可维护性和线上运行时质量。
+- title: TS能干点什么
+  details: 静态检查、面向对象编程增强、类型系统、模块系统增强
 ---
