@@ -13,6 +13,6 @@ cd docs/.vuepress/dist
 git pull https://github.com/yulin3/learn-ts.git master 
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:<yulin3>/<learn-ts>.git master:gh-pages
+git push -f https://github.com/yulin3/learn-ts.git master:gh-pages
  
 cd -
