@@ -12,14 +12,14 @@ module.exports = {
             { text: 'TS學習筆記', link: '/ts/' }
         ],
         sidebar: {
-            '/': {
-                title: '首頁',
-                collapsable: true
-            },
             '/ts/': [
                 {
                     title: 'TS學習筆記',
-                    collapsable: true
+                    collapsable: true,
+                    children: [
+                        '',
+                        'base'
+                    ]
                 }
             ]
         }

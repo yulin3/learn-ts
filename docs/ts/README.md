@@ -1,40 +1,47 @@
-# 笔记
+# 總綱
 
-## 后台
+學習總綱
 
-* 泛型 typeliteral 
-* guice
-* wpa
-* 扫描工具 ibm-appscan
-* Service Provider Interface（SPI）
-* java agent / native agent
+## 第一週
 
+* 原始數據類型
+* 任意值
+* 類型推論
 
-## 前台 
+## 第二週
 
-* 安全漏洞 owasp top10
-* 前台代码覆盖率工具 Istanbul 
-* 依赖构建工具 Browserify
-* rollup => tree shaking
-* koa, layout
-* IndexedDB：浏览器端数据库
-* electron
-* Image2DataURI 图片转码
+* 聯合類型
+* 對象的類型——接口
+* 數組的類型
 
-## windows
-* 注册表（浏览器首页）：first home page
-* 镜像劫持，替换系统默认记事本
-* 修改背景色
+## 第三週
 
-步骤：  1、快捷键Win+R打开运行，输入regedit运行注册表编辑程序；  2、依次打开[HKEY_CURRENT_USER\Control Panel\Colors]，双击修改Window字符串值为“204 232 207”（注意空格），此为豆沙绿护眼色，需要修改为别的颜色可自行输入颜色RGB值；  3、关闭注册表，注销或重启系统即可生效。
+* 函數的類型
+* 類型斷言
 
-## 软件
+## 第四週
 
-* 谷歌访问助手
-* Axure原型设计工具
-* thumbnailator缩略图生成器
-* 快速克隆网站（Teleport Ultra）
-* 网页视频下载软件 硕鼠
-* 磁盘分析 SpaceSniffer
-* ngrok 内网映射
-* ARCHPR 密码
+* 聲明文件
+* 內置對象
+
+## 第五週
+
+* 類型別名
+* 字符串字面類型
+* 元組
+
+## 第六週
+
+* 枚舉
+* 類
+* 類與接口
+
+## 第七週
+
+* 泛型
+* 聲明合併
+* 擴展閱讀
+
+## 第八週-第十週
+
+* 實戰-數獨
