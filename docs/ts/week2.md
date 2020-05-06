@@ -9,12 +9,12 @@
 ### 舉個栗子
 
 ```javaScript
-    let myFavoriteType: boolean | number
-    myFavoriteType = true
-    myFavoriteType = 99
+let myFavoriteType: boolean | number
+myFavoriteType = true
+myFavoriteType = 99
 
-    // error
-    myFavoriteType = '99'
+// error
+myFavoriteType = '99'
 ```
 
 联合类型使用 | 分隔每个类型
@@ -74,7 +74,7 @@ let ex: GirlFriend = {
     // age: 18
 }
 // index.ts(6,5): error TS2322: Type '{ name: string; }' is not assignable to type 'GirlFriend'.
-//   Property 'age' is missing in type '{ name: string; }'.
+// Property 'age' is missing in type '{ name: string; }'.
 
 ```
 
@@ -115,9 +115,9 @@ let ex: GirlFriend = {
 }
 // index.ts(3,5): error TS2411: Property 'age' of type 'number' is not assignable to string index type 'string'.
 // index.ts(7,5): error TS2322: Type '{ [x: string]: string | number; name: string; age: number; gender: string; }' is not assignable to type 'GirlFriend'.
-//   Index signatures are incompatible.
-//     Type 'string | number' is not assignable to type 'string'.
-//       Type 'number' is not assignable to type 'string'.
+// Index signatures are incompatible.
+// Type 'string | number' is not assignable to type 'string'.
+// Type 'number' is not assignable to type 'string'.
 
 ```
 
@@ -141,7 +141,7 @@ interface GirlFriend {
 
 ```javaScript
 interface GirlFriend {
-    index: number;
+    readonly index: number;
     name: string;
     age: number;
     [propName: string]: string | number;
