@@ -18,7 +18,8 @@ module.exports = {
                     collapsable: true,
                     children: [
                         '',
-                        'base'
+                        'base',
+                        'week2'
                     ]
                 }
             ]
