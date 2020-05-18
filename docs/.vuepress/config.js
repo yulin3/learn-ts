@@ -19,7 +19,8 @@ module.exports = {
                     children: [
                         '',
                         'base',
-                        'week2'
+                        'week2',
+                        'week3'
                     ]
                 }
             ]
