@@ -22,7 +22,8 @@ module.exports = {
                         'week2',
                         'week3',
                         'week4',
-                        'week7'
+                        'week7',
+                        'week8'
                     ]
                 }
             ]
